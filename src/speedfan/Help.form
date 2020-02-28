@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="toolBar" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="helpListBorder" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="helpPageBorder" min="-2" pref="671" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="14" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="toolBar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="helpListBorder" max="32767" attributes="0"/>
+                  <Component id="helpPageBorder" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="toolBar">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="settingsButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="printButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="settingsButton" alignment="0" pref="41" max="32767" attributes="0"/>
+              <Component id="printButton" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="settingsButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Settings icon.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Settings"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="settingsButtonMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="settingsButtonMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="settingsButtonMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="printButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Print icon.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Print"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="printButtonMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="printButtonMouseExited"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="helpListBorder">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="helpTabs" min="-2" pref="219" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="helpTabs" min="-2" pref="402" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="helpTabs">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="helpListTab">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Contents">
+                    <Property name="tabTitle" type="java.lang.String" value="Contents"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="contentsScrollPAne" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="contentsScrollPAne" pref="352" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="contentsScrollPAne">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="contentsBorder">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="configureComboButton" alignment="0" pref="184" max="32767" attributes="0"/>
+                              <Component id="helpListPt2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="helpListPt3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="helpListPt4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tabsComboButton" alignment="1" max="32767" attributes="0"/>
+                              <Component id="introductionComboButton" alignment="0" max="32767" attributes="0"/>
+                              <Component id="profilesComboButton" alignment="1" max="32767" attributes="0"/>
+                              <Component id="helpListPt1" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="introductionComboButton" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="helpListPt1" min="-2" pref="230" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="tabsComboButton" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="helpListPt2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="configureComboButton" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="helpListPt3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="profilesComboButton" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="helpListPt4" min="-2" pref="16" max="-2" attributes="0"/>
+                                  <EmptySpace pref="197" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JToggleButton" name="introductionComboButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Introduction"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="introductionComboButtonMouseClicked"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="introductionComboButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JList" name="helpListPt1">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                              <StringArray count="9">
+                                <StringItem index="0" value="1. What is SpeedFan"/>
+                                <StringItem index="1" value="2. First Look"/>
+                                <StringItem index="2" value="&lt;html&gt;3. My Position on CPU cooling &lt;br&gt;and Fan Speeds&lt;/html&gt;"/>
+                                <StringItem index="3" value="4. Logging Facility"/>
+                                <StringItem index="4" value="&lt;html&gt;5. How to Download a &lt;br&gt;Configuration&lt;/html&gt;"/>
+                                <StringItem index="5" value="6. How to SEND a REPORT"/>
+                                <StringItem index="6" value="7. How to debug the SMBus"/>
+                                <StringItem index="7" value="8. How to Set Advanced Options"/>
+                                <StringItem index="8" value="9. How to Configure E-mail Support"/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt1MouseClicked"/>
+                            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt1MouseEntered"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JToggleButton" name="configureComboButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="How to Configure"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="configureComboButtonMouseClicked"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JToggleButton" name="tabsComboButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="About Tabs"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tabsComboButtonMouseClicked"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tabsComboButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JToggleButton" name="profilesComboButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Profiles"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="profilesComboButtonMouseClicked"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JList" name="helpListPt2">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                              <StringArray count="6">
+                                <StringItem index="0" value="10. Main"/>
+                                <StringItem index="1" value="11. Configure"/>
+                                <StringItem index="2" value="12. Debugging"/>
+                                <StringItem index="3" value="13. Diagnostics"/>
+                                <StringItem index="4" value="14. Charts"/>
+                                <StringItem index="5" value="15. Clock"/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt2MouseClicked"/>
+                            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt2MouseEntered"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JList" name="helpListPt3">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                              <StringArray count="4">
+                                <StringItem index="0" value="16. Temperature"/>
+                                <StringItem index="1" value="17. Fans"/>
+                                <StringItem index="2" value="18. Speeds"/>
+                                <StringItem index="3" value="19. Voltage"/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt3MouseClicked"/>
+                            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt3MouseEntered"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JList" name="helpListPt4">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                              <StringArray count="1">
+                                <StringItem index="0" value="20. Profiles"/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt4MouseClicked"/>
+                            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="helpListPt4MouseEntered"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="searchTab">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Search">
+                    <Property name="tabTitle" type="java.lang.String" value="Search"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="searchTextField" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="searchButton" min="-2" pref="77" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="searchTextField" max="32767" attributes="0"/>
+                              <Component id="searchButton" pref="28" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" pref="313" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JList" name="searchList">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="searchListMouseClicked"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JTextField" name="searchTextField">
+                </Component>
+                <Component class="javax.swing.JButton" name="searchButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Search"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="searchButtonMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="helpPageBorder">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="helpPage1">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help1Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help1Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help1Title" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="help1Para1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="help1Pic" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="help1Warning" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help1Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help1Para1" min="-2" pref="232" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="help1Pic" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="help1Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="help1Warning" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="help1Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="20" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help1Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Welcome to SpeedFan"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help1Pic">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\SpeedFan Icon.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help1Warning">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Gill Sans MT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="WARNING"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help1Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;SpeedFan is a freeware program that monitors &#xa;&lt;br&gt;voltages, fan speeds and temperatures in computers &#xa;&lt;br&gt;with hardware monitor chips. SpeedFan can even &#xa;&lt;br&gt;access S.M.A.R.T. info  for those hard disks that &#xa;&lt;br&gt;support this feature and show  hard disk temperatures &#xa;&lt;br&gt;too, if supported. SpeedFan supports  SCSI disks too. &#xa;&lt;br&gt;SpeedFan can even change the FSB on some  hardware &#xa;&lt;br&gt;(but this should be considered a bonus feature).  At the &#xa;&lt;br&gt;lowest level, SpeedFan is an hardware monitor  &#xa;&lt;br&gt;software that can access temperature sensors, but its &#xa;&lt;br&gt;main  feature is that it can change fan speeds &#xa;&lt;br&gt;(depending on the capabilities of your sensor chip and &#xa;&lt;br&gt;your hardware) according  to the temperatures inside &#xa;&lt;br&gt;your pc, thus reducing noise and  power consumption.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help1Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;SpeedFan works fine with Win9x, WinME, WinNT, Win2k and WinXP. SpeedFan can &#xa;&lt;br&gt;be minimized to the tray and does its best to be compatible with other hardware &#xa;&lt;br&gt;monitoring softwares. &lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help1Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Please note that SpeedFan is an extremely powerful tool. When first installed, it is &#xa;&lt;br&gt;configured only as an hardware monitoring tool. This means it won&apos;t try to change the &#xa;&lt;br&gt;speed of your fans. Changing the FSB is the other operation that should be done &#xa;&lt;br&gt;with care. Anyway: changing the FSB should cause no harm to your system but a &#xa;&lt;br&gt;hang up :-) Anyway: this is an advanced option too and you should try it only if &#xa;&lt;br&gt;you know what you&apos;re doing.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage2">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help2Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help2Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help2Title" min="-2" max="-2" attributes="0"/>
+                              <Component id="help2Pic1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help2Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="help2Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help2Pic1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="help2Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1781" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help2Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to configure SpeedFan."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help2Pic1">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help2ScreenShot.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help2Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;I have got an ABIT BP6. Its SMBus is supported by SpeedFan and it has got a WINBOND  &#xa;&lt;br&gt;W83782D hardware monitoring chip. This W83782D, like several others from Winbond,  &#xa;&lt;br&gt;shows two additional sensors that appear as two LM75. On my motherboard, the  &#xa;&lt;br&gt;W83782D is both accessible through ISA and SMBus. In my configuration I&#x2019;ve chosen to  &#xa;&lt;br&gt;access it only through SMBus even though this is not the most relialable setting. ISA is,  &#xa;&lt;br&gt;in fact, more stable, but I&#x2019;ve chosen this setup for debugging purposes.  &#xa;&lt;br&gt;&#xa;&lt;br&gt;So, let&apos;s start.   &#xa;&lt;br&gt;&#xa;&lt;br&gt;This is SpeedFan right after the very first run.&lt;/html&gt; "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help2Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Those flames are not actually a problem. They are due to the fact that SpeedFan &#xa;&lt;br&gt;has been initially configured (by me) to expect lower values. Temperatures have &#xa;&lt;br&gt;been sorted trying to put at the top those that make more sense.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage3">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card4"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help3Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help3Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help3Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help3Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="help3Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="My Position on CPU cooling and Fan Speeds"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help3Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;A lot of users are worried about fan speed changing. I agree with them, but not completely. &lt;br&gt;Like every other operation involving a PC and its hardware, not everybody should do it. I mean:  &lt;br&gt;A lot of users are worried about fan speed changing. I agree with them, but not completely. &lt;br&gt;Like every other operation involving a PC and its hardware, not everybody should do it. I mean:  &lt;br&gt;even if I&apos;ve got some knowledge about my car, I do not spend my time hacking it :-) &lt;br&gt; &lt;br&gt;Anyway: changing fan speeds can&apos;t be considered that harmful, because every hardware  &lt;br&gt;manufacturer should have taken into account the chance that a fan will ever fail and most of us  &lt;br&gt;have got a PC with a fan that&apos;s no longer running since a long time.  &lt;br&gt;Personally, I&apos;m much more afraid of those heatsinks that require Hulk to set them up, and when  &lt;br&gt;you&apos;re done you hardly realize that all that force is held by a couple of really small plastic pieces  &lt;br&gt;that might easily break. What would happen then? &lt;br&gt; &lt;br&gt;Have you ever considered the weight of a performance heatsink? Have you ever considered  &lt;br&gt;what happens if you move your PC for a lan party? A friend of mine broke his CPU  &lt;br&gt;transporting his PC this way.  &lt;br&gt;One final note goes to those temperature sensors built into recent CPUs. Well... if you  &lt;br&gt;search the web you&apos;ll find a really interesting movie where a PIII, an Athlon and a P4 are  &lt;br&gt;filmed while the heatsink is removed: the PIII simply hangs, the Athlon lovely burns with  &lt;br&gt;the motherboard itself and the P4 simply slows down working perfectly and resuming normal  &lt;br&gt;clock speed when the heatsink is restored in place.  &lt;br&gt;A second issue is about &lt;r&gt;the chance that a fan will break after having been speed changed. &lt;br&gt; &lt;br&gt;Well... that might happen, but, according to my experience, the chance is very low (0% for  &lt;br&gt;me :-)).  &lt;br&gt;If it was that likely to happen (that a fan could break), why did almost every hardware  &lt;br&gt;monitoring chip manufacturer add that option? And why did motherboard manufacturers  &lt;br&gt;include the circuitry to support it? :-)&lt;/html&gt; "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage4">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card5"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help4Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help4Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help4Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="help4Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1342" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help4Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Logging Facility"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help4Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;SpeedFan has full logging capabilities. &lt;br&gt;The options you can set are: &lt;br&gt; &lt;br&gt; &lt;br&gt;Enabled: This option completely enables or disables logging &lt;br&gt; &lt;br&gt;Add header to file: When enabled, a new log file is started with the  &lt;br&gt;&#x9;        names of the fields on the first row. &lt;br&gt; &lt;br&gt;Decimal separator: This option is originally set according to your  &lt;br&gt;&#x9;        international settings, but you may change it to  &lt;br&gt;&#x9;        whatever you prefer. &lt;br&gt;  &lt;br&gt;Max decimals: The logging facility tries to save space on disk. If you  &lt;br&gt;&#x9;set this option to, say, 5, you will never get more than  &lt;br&gt;&#x9;5 decimal digits, but SpeedFan will remove least  &lt;br&gt;&#x9;significant ones if they are zeroes. &lt;br&gt; &lt;br&gt;Days to keep: SpeedFan will keep at most this number of days worth  &lt;br&gt;                       of log files. Please note that this is not necessarily the  &lt;br&gt;                       maximum number of log files, as SpeedFan can create  &lt;br&gt;                       more than one log file per day. &lt;br&gt; &lt;br&gt;File format: Log files contain values written in text format using the  &lt;br&gt;                    specified decimal separator. Values are separated by TAB.  &lt;br&gt;                    The first row in the file contains the names of the columns  &lt;br&gt;                    if the add header to file option has been selected. The first  &lt;br&gt;                    number in the row is the number of seconds since midnight. &lt;br&gt; &lt;br&gt;Naming: Log files are named SFLogYYYYMMDD.csv, where YYYY is the  &lt;br&gt;               year (four digits), MM is the month (2 digits, zero padded) and  &lt;br&gt;               DD is the day (2 digits, zero padded). If a file already exists by  &lt;br&gt;               that name, the file that already exists is renamed according to  &lt;br&gt;               the following naming scheme: SFLogYYYYMMDD-CCCC.csv,  &lt;br&gt;               where CCCC is a increasing number. The new file is then  &lt;br&gt;               created with the standard file name scheme. &lt;br&gt; &lt;br&gt; &lt;br&gt;Notes: Whenever you change the options related with logging, SpeedFan starts a new log file. &lt;br&gt; &lt;br&gt;Once you set the global options for logging, you have to choose what to log. Say that you want  &lt;br&gt;to log TEMP1 and TEMP3. Go to the TEMPERATURE tab, then select TEMP1. At the bottom of  &lt;br&gt;the window you will find a checkbox named LOGGED. Check it and TEMP1 will be logged to the  &lt;br&gt;log file. Then select TEMP3 and do the same. That&apos;s all. &lt;br&gt; &lt;br&gt; &lt;br&gt;File format: Log files contain values written in text format using the specified decimal  &lt;br&gt;                    separator. Values are separated by TAB. The first row in the file contains  &lt;br&gt;                    the names of the columns if the add header to file option has been  &lt;br&gt;                    selected. The first number in the row is the number of seconds since midnight. &lt;br&gt; &lt;br&gt;Naming: Log files are named SFLogYYYYMMDD.csv, where YYYY is the year (four digits),  &lt;br&gt;               MM is the month (2 digits, zero padded) and DD is the day (2 digits, zero padded).  &lt;br&gt;               If a file already exists by that name, the file that already exists is renamed  &lt;br&gt;               according to the following naming scheme: SFLogYYYYMMDD-CCCC.csv, where  &lt;br&gt;               CCCC is a increasing number. The new file is then created with the standard file  &lt;br&gt;               name scheme. &lt;br&gt; &lt;br&gt;Notes: Whenever you change the options related with logging, SpeedFan starts a new log  &lt;br&gt;            file. &lt;br&gt; &lt;br&gt;Once you set the global options for logging, you have to choose what to log. Say that you  &lt;br&gt;want to log TEMP1 and TEMP3. Go to the TEMPERATURE tab, then select TEMP1. At the  &lt;br&gt;bottom of the window you will find a checkbox named LOGGED. Check it and TEMP1 will be  &lt;br&gt;logged to the log file. Then select TEMP3 and do the same. That&apos;s all.&lt;/html&gt; "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage5">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card6"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help5Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Pic" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para82" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Pic5" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para7" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para62" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para6" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Pic4" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para5" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Pic3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para4" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Pic2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Title" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Para8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help5Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help5Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help5Pic" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="help5Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help5Pic2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          <Component id="help5Para4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help5Pic3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="help5Para5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="help5Pic4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="help5Para6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="help5Para62" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="help5Para7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="help5Pic5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="help5Para8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="help5Para82" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          <Component id="help5Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="help5Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to Download Configuration"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Pic">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Pic2">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot1.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Here we select the motherboard manufacturer."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Pic3">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot2.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Here we select the motherboard model."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Pic4">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot3.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Currently we can only select english configurations. In the future it will be possible  "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para62">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="to upload and download configurations in other languages."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot4.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Now we specify whether we want to download (get) or upload (send) a configuration."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Pic5">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot5.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="More than one user might have uploaded his own configuration. Select the one you want  "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para82">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="to download."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help5ScreenShot6.png"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;SpeedFan strictly follows the datasheets available for each sensor chip. Hardware  &lt;br&gt;manufacturers can connect any sensor to whatever they like (to some extent). This  &lt;br&gt;means that SpeedFan is unable to know what&apos;s actually connected to, say, temp1.  &lt;br&gt;A procedure was developed to let end users, that feel confident about the  &lt;br&gt;configuration they set up for their own motherboard, upload it to make it available  &lt;br&gt;to other users.   &lt;br&gt; &lt;br&gt;You can access these configurations by using the GET CONFIG  &lt;br&gt;button on the INFO tab. You will find a link to a web page. By following the  &lt;br&gt;instructions on that web page you will be able, if your motherboard is listed there,  &lt;br&gt;to get a ticket. This ticket is, basically, a number that you will have to write in the  &lt;br&gt;relevant field in the dialog presented by SpeedFan. Fill in proxy info if needed, then  &lt;br&gt;press OK and restart SpeedFan if instructed to do so.   &lt;br&gt; &lt;br&gt;The online procedure requires the following steps: &lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;You can use this web page both to get an already uploaded configuration or to upload&#xa;&lt;br&gt;yours. Since we want to download one,  &lt;br&gt;we will select &quot;Existing configurations&quot;. &lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help5Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;We are almost done now. In our example, we got 207 as the ticket number.  &lt;br&gt;We simply have to go back to SpeedFan, enter 207 as the ticket number and  &lt;br&gt;press OK. &lt;br&gt; &lt;br&gt;Disclaimer: Please note that these configurations are uploaded by end users  &lt;br&gt;and there is no overall control from SpeedFan&apos;s author. You are encouraged to  &lt;br&gt;disable AUTOMATIC FAN SPEED on the main window of SpeedFan and to  &lt;br&gt;check that everything is working fine. Configurations can only be uploaded by  &lt;br&gt;registered users that properly confirmed their registration by answering an  &lt;br&gt;email sent them. This greatly reduces the chances that something improper is  &lt;br&gt;uploaded.&lt;/html? "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage6">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card7"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help6Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help6Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help6Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help6SubTitle2" min="-2" pref="311" max="-2" attributes="0"/>
+                              <Component id="help6SubTitle1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help6Title" min="-2" max="-2" attributes="0"/>
+                              <Component id="help6SubTitle3" alignment="0" min="-2" pref="311" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help6Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="help6SubTitle1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="help6Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="help6SubTitle2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help6Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          <Component id="help6SubTitle3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="help6Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1496" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="help6Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to SEND and REPORT"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help6SubTitle1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="What do I expect from your reports?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help6SubTitle2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="What might you expect from reporting?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help6SubTitle3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to report"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help6Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;I&apos;m always eager to get reports from unsupported hardware. The best reports for  &lt;br&gt;me are those where almost nothing has been found. I always work on them ASAP.  &lt;br&gt;Obviously, in order to be able to fix SpeedFan to try to make it work with that  &lt;br&gt;hardware, I need your support. I do have some computers, but not every kind of  &lt;br&gt;hardware :-) If you plan to receive help from me, you should specify a valid email  &lt;br&gt;address. Please note that, in order to add support for new hardware, I need to  &lt;br&gt;send to you a new beta (a beta version is a private version of the software before  &lt;br&gt;the actual, final, new release is ready). In order to do so I need from you a valid  &lt;br&gt;email address that is able to receive an attachment (less than 1MB).&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help6Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Most of all you should ask for support for your unrecognized hardware monitoring  &lt;br&gt;chips. If this is the case, please give me as many info as you can. For example: you  &lt;br&gt;might tell me if any other hardware monitoring software is able to detect it, which  &lt;br&gt;name it has, where it is located (ISA, SMBus,...), the name that might be written on  &lt;br&gt;your system manual, or, if you can, the names written on the chips on your  &lt;br&gt;motherboard. Usually, hardware monitoring chips have got more than 10 pins and do  &lt;br&gt;not have heatsinks (actually, I&apos;ve never seen one with an heatsink :-)). &lt;br&gt; &lt;br&gt;If you would like me to add support for your CLOCK (PLL) chip, you should carefully  &lt;br&gt;look at your motherboard and tell me the whole name. The clock chip is easy enough  &lt;br&gt;to find, as it is located near to a 14.xx MHz quartz (a small silver coated object  &lt;br&gt;protruding from the MB).&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help6Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Before reporting, you might try to understand whether your motherboard supports fan  &lt;br&gt;speed changing or not. If you dare changing fan speeds, you might consider reading my  &lt;br&gt;point of view on this topic :-) &lt;br&gt;Please, note that fan speed changing does not require a 3-wire fan. Any fan should work,  &lt;br&gt;if the motherboard supports fan speed changing. &lt;br&gt;You should connect a fan to every fan header on your motherboard. If you do not have that  &lt;br&gt;many fans, keep in mind that not every fan header might be able to change fan speeds. On  &lt;br&gt;my ABIT BP6, for example, only 2 out of 3 fan headers support it. You should try to change  &lt;br&gt;fan header and try again. &lt;br&gt; &lt;br&gt;The first step to check whether your motherboard is able to change fan speeds is trying to  &lt;br&gt;actually STOP fans. Set each speed down to 0%. Do not rely on reported fan speeds:  &lt;br&gt;reported fan speeds are usually wrong when coming to PWM modulation. Simply &quot;listen&quot; to  &lt;br&gt;your fans, or, better, look at them :-) If you are able to stop any fan, then it&apos;s likely to be  &lt;br&gt;possible to change fan speeds! Fan speed changing depends on some additional circuitry  &lt;br&gt;on the motherboard. Not every hardware manufacturer adds it. Depending on the actual  &lt;br&gt;circuitry, fan speed changing might be possible and might be more or less linear. After  &lt;br&gt;having discovered that you can stop a fan, you should try to understand the linearity  &lt;br&gt;(smoothness) of this variation. Try setting to 50%, 75% and the likes. Some motherboards  &lt;br&gt;do not vary fan speeds until when very low values are reached, like 20% or, even 2%. Try  &lt;br&gt;setting even 1% and check to see if there is any difference in speed. "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage7">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card8"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help7">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="help7Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help7Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help7SubTitle2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help7SubTitle1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help7Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="help7SubTitle1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help7Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="help7SubTitle2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="2012" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to Debug the SMBus"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help7SubTitle1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="/NO SMBSCAN"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help7SubTitle2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="/SMBDEBUG"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help7Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;If SpeedFan starts and then hangs while detecting your hardware, it might be due  &lt;br&gt;to a problem with your SMBus. Most hardware monitoring chips nowadays are  &lt;br&gt;connected to the SMBus. Anyway: it might be that you need not to access the SMBus  &lt;br&gt;in order to get hardware monitoring info. You can try this by running SpeedFan with  &lt;br&gt;the following command line switch:&lt;/html&gt; "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help7Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;If SpeedFan runs just fine when started using the previous command line switch,  &lt;br&gt;then it means that there is some problem between SpeedFan and your SMBus. I  &lt;br&gt;would like to know about problems and, therefore, please contact me and I will  &lt;br&gt;do my best to solve that issue. &lt;br&gt; &lt;br&gt;In order to simplify the task of solving this incompatibility, I&apos;ve added a special  &lt;br&gt;command line switch:&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;When you start SpeedFan using this command line switch, SpeedFan will avoid  &lt;br&gt;detecting your hardware monitoring chips and will open instead a debug window.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage8">
+          <Properties>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card9"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help8">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help8Pic1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help8Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help8Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help8Title" min="-2" max="-2" attributes="0"/>
+                              <Component id="help8Para3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help8Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="help8Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="help8Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="help8Pic1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="help8Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="962" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="help8Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to set Advanced Options"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help8Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Please note that setting these options might cause your system to become unstable.  &lt;br&gt;You should know what you are doing. &lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help8Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;The Advanced Options tab allows you to set some specific options available from  &lt;br&gt;the hardware that SpeedFan found in your computer. After you have selected one  &lt;br&gt;of the available chips, the window will populate with all the options that are  &lt;br&gt;relevant to the chip you selected.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help8Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;In this picture you can see the options related to the ITE IT8712F. Some options, &#xa;&lt;br&gt;like &quot;FANx mult&quot;, &quot;FANx div&quot;, &quot;Temperature x offset&quot; and &quot;Reverse PWMx logic&quot; are &#xa;&lt;br&gt;common to all the chips, when applicable. This means that every chip that is able to &#xa;&lt;br&gt;read any temperature will have a &quot;Temperature x offset&quot; for each of them. Some other &#xa;&lt;br&gt;property is specific to some chip.&#xa;&lt;br&gt;&#xa;&lt;br&gt;We will take a closer look at the properties that appeared for the IT8712F since  &#xa;&lt;br&gt;SpeedFan 4.19: &quot;PWM x mode&quot; and &quot;PWMOUT clock&quot;. Up to SpeedFan 4.18, SpeedFan  &lt;br&gt;applied some custom settings when first detecting this chip. These settings allowed  &lt;br&gt;some computers to be able to change fan speeds, overriding some &lt;br&gt;(eventually  &lt;br&gt;missing) settings applied by the BIOS. The fact that those settings were applied only  &lt;br&gt;upon detection caused the same settings to be overriden by the BIOS after a Resume  &lt;br&gt;from Hibernation, forcing you to restart SpeedFan to be able to change fan speeds  &lt;br&gt;again. Now those settings are no longer &lt;br&gt;automatically applied. This means that  &lt;br&gt;some motherboards will no longer be able to change fan speeds. If this is your case,  &lt;br&gt;just enter CONFIG / ADVANCED and set &quot;PWM x mode&quot; to Software Controlled. I  &lt;br&gt;suggest you to set &quot;PWMOUT clock&quot; to 3M as this seems to be the best choice, but, if  &lt;br&gt;your fan is not too smooth &lt;br&gt;when changing fan speeds or makes odd noises, you  &lt;br&gt;can try different settings. &lt;br&gt; &lt;br&gt;Once you have verified that the new settings allow you to change fan speeds, you can  &lt;br&gt;reenter CONFIG / DIALOG and check &quot;remember it&quot; to instruct SpeedFan to set that  &lt;br&gt;option whenever it starts and whenever your computer resumes from suspend or  &lt;br&gt;hibernation. &lt;br&gt; &lt;br&gt;Other interesting options are: &lt;br&gt; &lt;br&gt; &lt;br&gt;&lt;b&gt;Temperature x offset&lt;/b&gt;  &lt;br&gt;If you know that any one specific temperature reported by SpeedFan is lower or  &lt;br&gt;higher than the real one by a specific offset, you can use this option to fix it &lt;br&gt;  &lt;br&gt;&lt;b&gt;FANx divisor &lt;/b&gt; &lt;br&gt;Depending on this value, higher or lower fan RPMs can be properly read:  &lt;br&gt;set it to a low value (1 or 2) if you have a high RPM fan (above 4000 RPM) and set it to 4  &lt;br&gt;or 8 if you have a slower fan. If any fan reports its speed as 0 RPM, give this option a try  &lt;br&gt;by setting a higher fan divisor  &lt;br&gt; &lt;br&gt;&lt;b&gt;FANx mult + FANx div&lt;/b&gt;  &lt;br&gt;Do not confuse these options with &quot;FANx divisor&quot;. The actual RPM value read by the hardware  &lt;br&gt;monitor chip will be multiplied by &quot;FANx mult&quot; and divided by &quot;FANx div&quot;. If any fan is reporting,  &lt;br&gt;say, twice its real speed, simply set &quot;FANx div&quot; to 2.  &lt;br&gt; &lt;br&gt;&lt;b&gt;Reverse PWMx logic&lt;/b&gt;  &lt;br&gt;Sometimes selecting higher fan speeds causes the fan to slow down. If this is what you are  &lt;br&gt;experiencing, simply set this option to ON and it will be fixed &lt;br&gt; &lt;br&gt; &lt;br&gt;The &quot;Remember it&quot; checkbox causes SpeedFan to apply the relevant change to any option  &lt;br&gt;whenever SpeedFan starts and when your computer is resumed from suspend and from hibernation.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help8Pic1">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help8Pic1.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage9">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card10"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help9">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help9Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help9Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help9Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="help9Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="2148" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help9Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="How to Configure E-mail Support"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help9Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;SpeedFan can send emails. It uses an internal mail server. This server is currently  &lt;br&gt;quite simple. If the email can&apos;t be delivered it is not requeued. It is lost. But the mail  &lt;br&gt;server is quite powerful because it uses a multithreaded approach that won&apos;t block in  &lt;br&gt;any way SpeedFan&apos;s normal operations while trying to send emails. This is the most  &lt;br&gt;important thing for a tool like SpeedFan. Several profiles can be defined (some  &lt;br&gt;releases can only define one named &apos;default&apos;). Each profile contains the parameters  &lt;br&gt;needed to contact your ISP&apos;s mail server. The settings are the same that you need to  &lt;br&gt;enter in your favourite mail client. SpeedFan&apos;s email facility supports both SSL  &lt;br&gt;connections and POP3-BEFORE-SMTP. In order to support SSL, SpeedFan must find  &lt;br&gt;OpenSSL free library. The official web site is www.openssl.org and Windows binaries  &lt;br&gt;should be available at www.openssl.org/related/binaries.html. If you don&apos;t need SSL  &lt;br&gt;support, you don&apos;t need that library. If the SSL interface is found, its version will be  &lt;br&gt;clearly indicated in the configuration page. You are strongly encouraged to send a  &lt;br&gt;test mail to make sure that everything is properly configured and working.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage10">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card11"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help10">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help10Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help10Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help10Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="help10Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="help10Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Main Tab"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help10Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;This is the main part of SpeedFan. Most of the time you will look at this page. Another  &lt;br&gt;page of interest would be the one related to hard disk S.M.A.R.T. values. &lt;br&gt; &lt;br&gt;According to your hardware, on this page you will see: &lt;br&gt; &lt;br&gt;&lt;b&gt;CPU usage&lt;/b&gt;   &lt;br&gt;If everything works fine, you will see here as many bars as many CPUs you&apos;ve  &lt;br&gt;got. Each bar shows the CPU usage for each CPU. On my dual processor board, I can see 2  &lt;br&gt;bars.  &lt;br&gt; &lt;br&gt;&lt;b&gt;Fan RPMs&lt;/b&gt;  &lt;br&gt;Fan RPMs (revolutions per minute) are shown here. If you read 0, it might be due to too  &lt;br&gt;small a FAN DIVISOR. You can enter configuration dialog, on the ADVANCED tab and check  &lt;br&gt;to see if for your hardware monitoring chip SpeedFan support changing its setting. If it is  &lt;br&gt;supported, you might try setting it to a higher value (8 should do the trick for slow fans). &lt;br&gt;Please note that when you slow down fans by using SpeedFan&apos;s capabilities, reported RPMs  &lt;br&gt;might be odd. Usually you&apos;ll get very high reported speeds. This is mostly due to the fact  &lt;br&gt;that fan speeds changes are achieved by lowering the voltage sent to the fan itself. Most  &lt;br&gt;hardware monitoring chips do this voltage lowering by using PWM (Pulse Width Modulation).  &lt;br&gt;In poor terms, PWM means that the usual voltage is not always sent to the fan, but it is  &lt;br&gt;quickly turned on and off, thus simulating the effect of a lower voltage. This ON/OFF  &lt;br&gt;transition will cause the fan to improperly report its speed. Every fan reacts in a different  &lt;br&gt;way. &lt;br&gt;Consider that SpeedFan never relies on reported fan speeds when controlling them. Only &lt;br&gt;temperatures are relevant and SpeedFan will lose no functionality even if you&apos;ve got a &lt;br&gt;two-wired fan that doesn&apos;t report its speed.  &lt;br&gt; &lt;br&gt;&lt;b&gt;Temperatures&lt;/b&gt;  &lt;br&gt;Here you will find all the temperature readings that SpeedFan could detect. These include  &lt;br&gt;those from the hard disk (if it supports this feature) and from ghost sensors. Ghost  &lt;br&gt;sensors are those that either are improperly detected by SpeedFan or disconnected (not  &lt;br&gt;actually used by the motherboard to monitor anything). You can go to the TEMPERATURES  &lt;br&gt;tab in the configuration dialog and hide those temperatures you&apos;re not interested in. &lt;br&gt;Several users ask why I didn&apos;t show more self-explanatory names for each temperature.  &lt;br&gt;The problem is that I don&apos;t know which temperature each motherboard manufacturer  &lt;br&gt;actually connected to what :-( &lt;br&gt;As a rule of thumb, the higher (realistic) temperature is the CPU and the lower (realistic)  &lt;br&gt;one is from your CASE. CPU temperature can be recognized even because it&apos;s the one that  &lt;br&gt;rises faster when CPU usage is at full load for a few minutes.  &lt;br&gt; &lt;br&gt;&lt;b&gt;Fan SPEEDS&lt;/b&gt;  &lt;br&gt;Here you can (try to) set a lower speed for your fans. You will find something here only if  &lt;br&gt;your hardware supports this feature. Please note that both your hardware monitoring chip  &lt;br&gt;must support it and your motherboard must include the needed circuitry. Several  &lt;br&gt;motherboards seem not to include this circuitry, even if their hardware monitoring chip  &lt;br&gt;(and, thus, SpeedFan) would be able to change fan speeds. &lt;br&gt;The first test you should consider trying (please read my considerations about fan speed  &lt;br&gt;changing) is setting each speed to 0%. If any fan stops (you should listen to it :-)) then  &lt;br&gt;you&apos;re on the right way. Try raising that percentage and try to understand if the speed can  &lt;br&gt;be smoothly changed. Do not rely on reported fan speeds, but &quot;listen&quot; to the sound :-) &lt;br&gt;If your motherboard can change fan speeds and it&apos;s not listed on my supported hardware  &lt;br&gt;web page, please let me know and tell me if you can change fan speeds, smoothly and if  &lt;br&gt;you can stop fans :-)  &lt;br&gt; &lt;br&gt;&lt;b&gt;Voltages&lt;/b&gt;  &lt;br&gt;Here you can find detected voltages. Once again, the datasheets for those hardware  &lt;br&gt;monitoring chips report reference circuitries to be used, but several motherboard  &lt;br&gt;manufacturers use different ones. SpeedFan shows voltages&apos; names expected  &lt;br&gt;according to each datasheet. If they are different for your motherboard, feel free to  &lt;br&gt;use the VOLTAGES tab in the configuration dialog to change names. &lt;/html&gt; "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage11">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card12"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help11">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help11Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help11Pic1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help11Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help11Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help11Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="help11Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="help11Pic1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="help11Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1864" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help11Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Configure TAB"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help11Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Using the Configure tab you can change an attribute of your motherboard."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help11Pic1">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\data\Curtin\Fourth Year\Human Interactive Design\Icons\Help11Pic1.png"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help11Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;To select an attrubute you wish to change, simply click on one of the tabs above,&#xa;&lt;br&gt;all of which are labelled after an adjustable attribute, such as temperature. For &#xa;&lt;br&gt;instructions to configure a specific attrbute, look no further than the How to &#xa;&lt;br&gt;Configure help pages.  &lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage12">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card13"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help12">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help12Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help12Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help12Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="help12Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help12Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Debugging TAB"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help12Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;b&gt;ChipSet&lt;/b&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;The ChipSet shown is actually the relevant part of the chipset that is used by &#xa;&lt;br&gt;SpeedFan to access the SMBus. Sometimes you will find here something like &#xa;&lt;br&gt;PIIX4E (the good old SouthBridge from Intel BX), some other you&apos;ll find here &#xa;&lt;br&gt;something like SiS735.&#xa;&lt;br&gt;&#xa;&lt;br&gt;The main thing is that if you find something here, then you&apos;re motherboard is &#xa;&lt;br&gt;better supported than if nothing appears :-)&#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;DIMM info&lt;/b&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;About DIMM INFO. This started as a test to check SMBus functionality. It actually &#xa;&lt;br&gt;reads (or tries to) info about your RAM. If anything can be read, this should &#xa;&lt;br&gt;mean that your SMBus has been properly detected and accessed. But, sometimes, &#xa;&lt;br&gt;you might even see nothing here even if your SMBus is properly accessed. This &#xa;&lt;br&gt;may happen because either your motherboard does not &quot;publish&quot; those info &#xa;&lt;br&gt;directly on the SMBus or because your RAM has got a faulty EPROM.&#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;SEND REPORT&lt;/b&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;The SEND REPORT facility is one of the most useful debugging tools that &#xa;&lt;br&gt;SpeedFan has got. If you&apos;ve got something wrong with your SpeedFan, &#xa;&lt;br&gt;you should use the SEND REPORT facility to send a report. You will be &#xa;&lt;br&gt;asked for your email address and for your motherboard model.&#xa;&lt;br&gt;Your email address is vital if you plan to receive an answer :-)&#xa;&lt;br&gt;&#xa;&lt;br&gt;With the report you&apos;ll be able to include any text (question, suggestion, blame &#xa;&lt;br&gt;:-)) you like.&#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;GET CONFIG&lt;/b&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;The GET CONFIG facility allows you to download user supplied configurations &#xa;&lt;br&gt;for your motherboard. &#xa;&lt;br&gt;&#xa;&lt;br&gt;Find SMBus devices&#xa;&lt;br&gt;&#xa;&lt;br&gt;By pressing this button you will be presented a window with another button. &#xa;&lt;br&gt;Press it to start scanning the SMBus. SpeedFan will simply search for available &#xa;&lt;br&gt;devices and will do nothing else. This is useful for me to know whether your &#xa;&lt;br&gt;CLOCK chip or something else is available somewhere on your motherboard.&#xa;&lt;br&gt;If you run this function prior to sending a report, its results will be automatically &#xa;&lt;br&gt;added to the report itself.&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage13">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card14"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="hep13">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help13Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help13Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help13Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help13Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help13Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="help13Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                          <Component id="help13Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="help13Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help13Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Diagnostics TAB"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help13Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;S.M.A.R.T. technology is really interesting and is useful to address several HD &#xa;&lt;br&gt;related issues. SpeedFan can help you by showing S.M.A.R.T. readings from &#xa;&lt;br&gt;available HDs. Please note that HDs connected to some IDE RAID controllers &#xa;&lt;br&gt;might not show up. Supporting these controllers is not an easy task. If any &#xa;&lt;br&gt;manufacturer would like to be supported, I will be pleased to receive any kind of &#xa;&lt;br&gt;info from them :-)&#xa;&lt;br&gt;&#xa;&lt;br&gt;When looking at the S.M.A.R.T. tab, you will have to select an HD from the &#xa;&lt;br&gt;available list. You will get something like this:&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help13Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;For every S.M.A.R.T. attribute you will get the current VALUE, the WORST that has &#xa;&lt;br&gt;ever been registered, the THRESHOLD and the RAW reading.&#xa;&lt;br&gt;&#xa;&lt;br&gt;You will see an icon too:&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help13Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Starting with SpeedFan 4.28, fitness and performance overall indicators are computed &#xa;&lt;br&gt;using a more advanced structure. While 0% is still used when any relevant attribute &#xa;&lt;br&gt;reaches its threshold, the full range from 1% up to 100% uses a non-linear, multi-range, &#xa;&lt;br&gt;approach. This is the result of a statistical analysis of thousands hard disks. The owners &#xa;&lt;br&gt;of SEAGATE hard disks now should see less frightening values. Seagate uses an unusual &#xa;&lt;br&gt;strategy when presenting current values for some attributes, like &quot;seek error rate&quot;, which &#xa;&lt;br&gt;leads to values ranging around 55. The new way used by SpeedFan to compute fitness &#xa;&lt;br&gt;and reliability derives from the &lt;b&gt;&lt;i&gt;online in-depth analysis&lt;/b&gt;&lt;/i&gt;. Online in-depth analysis is an &#xa;&lt;br&gt;extremely powerful tool that applies only to EIDE/SATA hard disks and requires an active &#xa;&lt;br&gt;internet connection. You simply need to select one of your hard disks and then press the &#xa;&lt;br&gt;in-depth analysis button. A web page will open containing a full report about the status &#xa;&lt;br&gt;of your hard disk. What you will read is what an expert would say about your hard disk. &#xa;&lt;br&gt;This analysis is supported by a large database containing statistical data computed out &#xa;&lt;br&gt;of real hard disks. Computed statistical data is considered relevant only if enough valid &#xa;&lt;br&gt;hard disk reports were available when computing statistics. New databases will be &#xa;&lt;br&gt;generated often as new relevant data is available. If your hard disk is not in the current &#xa;&lt;br&gt;database, the analysis will still be conducted as if an expert did it. You can think of an &#xa;&lt;br&gt;expert looking at S.M.A.R.T. values from your hard disk and telling you about them. The &#xa;&lt;br&gt;expert can tell you a lot of things. If the expert already saw several hard disks like yours, &#xa;&lt;br&gt;he can say more specific things. The same thing happens with the in-depth analysis tool. &#xa;&lt;br&gt;The tool is currently available only online because it is under continuous development &#xa;&lt;br&gt;and refinement. This way you will get the most up-to-date report whichever SpeedFan &#xa;&lt;br&gt;version you will be using.&#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; you might need to enter CONFIGURE / INTERNET and set your HTTP PROXY &#xa;&lt;br&gt;configuration there.&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage14">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card15"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help14">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help14Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help14Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help14Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help14Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="help14Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="2074" max="32767" attributes="0"/>
+                          <Component id="help14Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help14Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Charts TAB"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help14Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="The CHART tab lets you graphically view the last values from your sensors."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help14Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;b&gt;Start time&lt;/b&gt; and&lt;b&gt; End time&lt;/b&gt; show the time interval available for charting.&#xa;&lt;br&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;Whenever SpeedFan reads a new sample for any sensor, it stores it its current value &#xa;&lt;br&gt;and timestamp. Some sensors are read less often than others. For example: S.M.A.R.T. &#xa;&lt;br&gt;sensors are read every 60 seconds, whereas other temperatures are collected every 3 &#xa;&lt;br&gt;seconds. Whatever the sampling rate is, SpeedFan will always show the full available &#xa;&lt;br&gt;interval. The samples stored for each sensor will be limited. Currently this limit is set &#xa;&lt;br&gt;to 256 samples, but it might vary in the future. This means that SpeedFan will show, at &#xa;&lt;br&gt;most, the last 256 samples.&#xa;&lt;br&gt;&#xa;&lt;br&gt;You can select which kind of sensors&apos; readings to compare (temperatures, fan speeds, &#xa;&lt;br&gt;voltages) and, within each type, you can choose which sensors to graph at the same &#xa;&lt;br&gt;time. Each sensor will be automatically given a different color.&#xa;&lt;br&gt;&#xa;&lt;br&gt;The graph will be updated in real time.&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage16">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card16"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help16">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help16Para8" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para7" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para6" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para5" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para4" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help16Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help16Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+                          <Component id="help16Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                          <Component id="help16Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
+                          <Component id="help16Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                          <Component id="help16Para4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                          <Component id="help16Para5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                          <Component id="help16Para6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="640" max="32767" attributes="0"/>
+                          <Component id="help16Para7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="help16Para8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help16Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Configuring Temperatures"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Let&#x2019;s start working on them."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;We&#x2019;ve now selected TEMP02. As you can see, we have got all the available &#xa;&lt;br&gt;temperature readings that SpeedFan has detected. In the CHIP column we can see &#xa;&lt;br&gt;whom the sensor belongs to. In this case we have three different chips: one W83782D &#xa;&lt;br&gt;and two LM75. We can distinguish the two LM75 because of the different ADDRESS &#xa;&lt;br&gt;($48 and $49). LM75s, in this case, are actually aliases created by the W83782D itself &#xa;&lt;br&gt;and we won&#x2019;t need them as all temperatures are available through the W83782D itself. &#xa;&lt;br&gt;This is not always true. Winbonds&#x2019; can be configured in a way that actually hides the &#xa;&lt;br&gt;original temperature reading from the main chip and, in such a case, we would need &#xa;&lt;br&gt;to access the aliased LM75.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;We&#x2019;re selecting &lt;b&gt;DESIRED&lt;/b&gt; and &lt;b&gt;WARNING&lt;/b&gt; temperatures according to our system &#xa;&lt;br&gt;and our whishes. Consider that we&#x2019;re talking about &quot;whishes&quot;. If we set these &#xa;&lt;br&gt;temperatures as low as 15 degrees, we won&#x2019;t, most likely, get them at all :-)&#xa;&lt;br&gt;&#xa;&lt;br&gt;As you can see, we first had to select a temperature and then we could select its &#xa;&lt;br&gt;parameters. We can even rename the default name (with either the mouse or by &#xa;&lt;br&gt;pressing F2). The renamed name will therefore be shown in the main window in a &#xa;&lt;br&gt;more descriptive way.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;We have renamed TEMP1 and TEMP2 to CPU1 and CPU0.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;We&#x2019;ve finished renaming and setting parameters for each temperature. Since I&#x2019;ve &#xa;&lt;br&gt;seen that the highest temperature in my system is CASE temperature, I&#x2019;ve chosen to &#xa;&lt;br&gt;have it shown in tray too.&#xa;&lt;br&gt;&#xa;&lt;br&gt;Now we need to hide from the main window those temperatures that are unuseful &#xa;&lt;br&gt;for our needs. In our case, they are those from LM75s. Not every system has got &#xa;&lt;br&gt;unuseful sensors, but another case where this might happen is when there are &#xa;&lt;br&gt;unconnected sensors that report obviously wrong values (like 127 or the like).&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Unchecking unwanted temperatures will do the trick.&#xa;&lt;br&gt;&#xa;&lt;br&gt;Now we would like to have those temperatures sorted on the main window. All we &#xa;&lt;br&gt;have to do is using drag&amp;drop to move them up and down.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;So, with a little dragging and dropping, we can achieve the following result.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help16Para8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Ok! The first part related to temperatures has been done.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage17">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card17"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help17">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help17Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help17Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help17Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help17Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help17Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Component id="help17Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                          <Component id="help17Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                          <Component id="help17Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="2096" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help17Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Configuring Fans"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help17Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Much like what we did with temperatures, we can rename..."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help17Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="...hide unwanteds from the main window (I haven&#x2019;t got any fan connected to FAN3)..."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help17Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="...and sort."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage18">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card18"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help18">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help18Para4" min="-2" max="-2" attributes="0"/>
+                              <Component id="help18Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help18Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help18Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help18Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help18Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="help18Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                          <Component id="help18Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="help18Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                          <Component id="help18Para4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1939" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help18Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Configuring Speeds"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help18Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;These are the default settings for my system.&#xa;&lt;br&gt;&#xa;&lt;br&gt;Please, note that not every motherboard will show something here. It depends on &#xa;&lt;br&gt;which sensors can be found by SpeedFan. The same happens for temperatures, &#xa;&lt;br&gt;voltages and fans. Not every sensor chip handles all of them. SpeedFan will show &#xa;&lt;br&gt;everything it can read from available sensors.&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help18Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="As usual, we can rename..."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help18Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;...hide unwanteds from the main window (W83782D has got 4 PWMs, but, for several &#xa;&lt;br&gt;reasons, it&#x2019;s quite difficult that you will be able to use them all)...&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help18Para4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="...and sort them."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage19">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card19"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help19">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help19Para3" min="-2" max="-2" attributes="0"/>
+                              <Component id="help19Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help19Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help19Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help19Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="help19Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="help19Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                          <Component id="help19Para3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1873" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help19Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Configuring Voltages"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help19Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Here we can find only values from the W83782D (the same thing happened with &#xa;&lt;br&gt;FANS and SPEEDS). This is due to the fact that LM75 sensors do not report anything &#xa;&lt;br&gt;else but temperatures. Not all detected chips will show up in each tab. Some chips &#xa;&lt;br&gt;do report fan speeds, others temperatures and voltages and so on.&#xa;&lt;br&gt;&#xa;&lt;br&gt;SpeedFan assigns default names to each voltage reading and does it following the &#xa;&lt;br&gt;specifications from the hardware manufacturer for the sensor chip itself. &#xa;&lt;br&gt;Unfortunately, some motherboard manufacturers do not follow those directions, &#xa;&lt;br&gt;thus leading to improper readings. SpeedFan is coded keeping generality as a goal &#xa;&lt;br&gt;and will, therefore, have some minor problems with some odd decision from some &#xa;&lt;br&gt;manufacturers.&#xa;&lt;br&gt;&#xa;&lt;br&gt;My ABIT BP6 has got a special setting that doesn&#x2019;t hurt too much: the VBAT reading &#xa;&lt;br&gt;is not actually from the battery itself, but from the CORE VOLTAGE for one of the &#xa;&lt;br&gt;two available CPUs.&#xa;&lt;br&gt;&#xa;&lt;br&gt;We can, with little effort, handle this :-)&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help19Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="We can even hide the VINR0 reading as it makes little sense (to me)."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help19Para3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Since we can, why don&#x2019;t we sort voltages too? :-)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage20">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card20"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help20">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help20Para2" min="-2" max="-2" attributes="0"/>
+                              <Component id="help20Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help20Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help20Title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="help20Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="1943" max="32767" attributes="0"/>
+                          <Component id="help20Para2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.Label" name="help20Title">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Profiles"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help20Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;Profiles are a new feature in SpeedFan, where users select how they would rank&#xa;&lt;br&gt;themselves in terms of experience using SpeedFan. This, in turn, enables or disables&#xa;&lt;br&gt; certain functions to accomodate for different kinds of users.&#xa;&lt;br&gt;&#xa;&lt;br&gt;The profiles settings can be found in the settings window, under the profiles tab. &#xa;&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help20Para2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;br&gt;There are three different levels of profiles that can be selected:&#xa;&lt;br&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;Beginner&lt;/b&gt;&#xa;&lt;br&gt;By default, SpeedFan is on the beginner mode. This mode disables all functions&#xa;&lt;br&gt;that involve configuring the clock, temperature, voltage and fan speeds. &#xa;&lt;br&gt;Beginner users can still view readings, charts and apply basic settings, but they&#xa;&lt;br&gt;do not have permission to access some of the more dangerous features. &#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;Advanced&lt;/b&gt;&#xa;&lt;br&gt;Advanced mode allows users of advanced experience using SpeedFan and&#xa;&lt;br&gt;a basic understanding of the hardware to configure CPU temperatures, voltage&#xa;&lt;br&gt;and fan speeds. However, they won&apos;t have the authority to apply changes that&#xa;&lt;br&gt;exceed the warning figures. They also don&apos;t have the authority to change these&#xa;&lt;br&gt;warning figures. &#xa;&lt;br&gt;&#xa;&lt;br&gt;&lt;b&gt;Expert&lt;/b&gt;&#xa;&lt;br&gt;Expert users are granted unrestricted access to all of SpeedFan&apos;s features, &#xa;&lt;br&gt;including the dangerous ones. They can even change warning figures, which act as&#xa;&lt;br&gt;a ceiling to how high certain values of temperature, voltage, etc. can be.  &#xa;&lt;br&gt;&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="helpPage15">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card21"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="help15">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="help15Para1" min="-2" max="-2" attributes="0"/>
+                              <Component id="help5Title1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="105" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="help5Title1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="help15Para1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="21" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="help5Title1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Clock Tab"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="help15Para1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="13" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;FSB is for Front Side BUS. It&apos;s the BUS clock speed for your CPU. &#xa;&lt;br&gt;This is not for the faint hearted. Changing the FSB you can make your CPU run faster &#xa;&lt;br&gt;(but even slower, if you like), but, if you don&apos;t know what you&apos;re doing, it&apos;s likely that &#xa;&lt;br&gt;you&apos;ll end up hanging your PC :-) This is, usually, not a problem. In the worst case &#xa;&lt;br&gt;you should simply have to power cycle your PC, but I do not know which are all &#xa;&lt;br&gt;possible results of attempting to do so and, therefore, I have to warn you telling you &#xa;&lt;br&gt;that &lt;b&gt;you should change the clock speed only if your really know what you&apos;re doing: &#xa;&lt;br&gt;I won&apos;t be responsible for any damage&lt;/b&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;:-)&#xa;&lt;br&gt;&#xa;&lt;br&gt;Prior to changing the clock, you should choose your motherboard model. If it doesn&apos;t &#xa;&lt;br&gt;appear amongst known motherboards you might contact me, but, please, be sure to &#xa;&lt;br&gt;know which is the EXACT clock generator you&apos;ve got on your motherboard. You can &#xa;&lt;br&gt;even directly select your clock generator (your motherboard might have the same &#xa;&lt;br&gt;clock generator as another supported motherboard). If it works for you, feel free to &#xa;&lt;br&gt;let me know.&#xa;&lt;br&gt;&#xa;&lt;br&gt;At the bottom of the window you can find a listing containing all available frequencies &#xa;&lt;br&gt;that can be set. Simply choose one and then press Set Clock. Usually you will start &#xa;&lt;br&gt;with a Read Clock so that you know whether your clock generator is properly handled. &#xa;&lt;br&gt;If it is properly handled, you will see the current frequecy shown right below the &#xa;&lt;br&gt;button.&#xa;&lt;br&gt;&#xa;&lt;br&gt;Starting from version 4.09, I&apos;ve added an Automatic Clock Control feature.&#xa;&lt;br&gt;&#xa;&lt;br&gt;It, basically, allows you to change clock speed based on current CPU utilization. You &#xa;&lt;br&gt;have to choose two different clock settings. One will be used when CPU utilization &#xa;&lt;br&gt;is low and the other one will be used when CPU utilization is high.&#xa;&lt;br&gt;&#xa;&lt;br&gt;The Status label will inform you about the latest setting applied by the internal logic &#xa;&lt;br&gt;and what the logic is about to do (like the &#x201c;low power preferred&apos; message you can &#xa;&lt;br&gt;see).&#xa;&lt;br&gt;&#xa;&lt;br&gt;Before activating Automatic Clock Control by checking Use This Clock Generator, you &#xa;&lt;br&gt;should first double check that the clock speeds you selected are working properly &#xa;&lt;br&gt;with your system.&#xa;&lt;br&gt;&#xa;&lt;br&gt;Please, note that current clock generators are extremely powerful and that the kind &#xa;&lt;br&gt;of settings allowed by SpeedFan makes use of built in predefined frequencies. &#xa;&lt;br&gt;Recent motherboards, though, use advanced clock settings and are not based on &#xa;&lt;br&gt;internal tables. It depends on several factor whether it will work or not. I&apos;ll be &#xa;&lt;br&gt;happy to know about any success even with unlisted motherboards that have a &#xa;&lt;br&gt;known clock generator :-)&lt;/html&gt;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
